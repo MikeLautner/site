@@ -110,19 +110,44 @@
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>At the moment, the form below will not  function. This page is new and not all components have been fully implemented. Please forgive the situation as I build out the page.</p>
+<!--						<p>At the moment, the form below will not  function. This page is new and not all components have been fully implemented. Please forgive the situation as I build out the page.</p>-->
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
+
+								<!-- modify this form HTML and place wherever you want your form -->
+								<form
+										action="https://formspree.io/f/xpwqedvl"
+										method="POST"
+								>
+									<label>
+										Name:
+										<input type="text" name="name">
+									</label>
+									<label>
+										Email:
+										<input type="email" name="email">
+									</label>
+									<label>
+										Message:
+										<textarea name="message"></textarea>
+									</label>
+									<!-- your other form fields go here -->
+<!--									<button type="submit">Send Message</button>-->
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+
+<!--								<form method="post" action="#">-->
+<!--									<div class="row gtr-uniform gtr-50">-->
+<!--										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>-->
+<!--										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>-->
+<!--										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>-->
+<!--									</div>-->
+<!--								</form>-->
+<!--								<ul class="actions">-->
+<!--									<li><input type="submit" value="Send Message" /></li>-->
+<!--								</ul>-->
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
